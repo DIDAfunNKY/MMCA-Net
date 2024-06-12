@@ -2,7 +2,7 @@
 [[`Paper`](https://doi.org/10.1109/JBHI.2024.3405993)]
 
 Official code implement of MMCA-Net
-# caModel.py is the implmentation of MMCA-Net and its sub-branch models.
+# caNet.py is the implmentation of MMCA-Net and its sub-branch models.
 
 ## Results
 | **Dataset**      | **Model**                         | **DICE$\uparrow$** | **HD95$\downarrow$** | **VOE$\downarrow$** | **RVD$\downarrow$** |
