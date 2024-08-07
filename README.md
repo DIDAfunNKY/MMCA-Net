@@ -1,8 +1,10 @@
 # MMCA-NET: A Multimodal Cross Attention Transformer Network for Nasopharyngeal Carcinoma Tumor Segmentation Based on a Total-Body PET/CT System
 [[`Paper`](https://doi.org/10.1109/JBHI.2024.3405993)]
 
-Official code implement of MMCA-Net
+Official code implement of MMCA-Net.
 # caNet.py is the implmentation of MMCA-Net and its sub-branch models.
+# Run train-Batch.py, to reproduce the whole experiment, all methods in ablation experiments and comparison experiments are inclued in train-Batch.py.
+(You may need to modifed dataloader to your own path, and apply for the public dataset HECKTOR, more detials about the dataset can be obtained with Google. Thanks)
 
 ## Results
 | **Dataset**      | **Model**                         | **DICE$\uparrow$** | **HD95$\downarrow$** | **VOE$\downarrow$** | **RVD$\downarrow$** |
